@@ -128,6 +128,16 @@ body {
   object-position: center center;
 }
 
+.read-post-img {
+  width: min(90%, 900px);
+  display: block;
+  margin: 0 auto;
+  min-height: 190px;
+  max-height: 480px;
+  object-fit: cover;
+  object-position: center top;
+}
+
 /* layout header*/
 
 .nav-bar {
@@ -257,6 +267,30 @@ footer {
 .footer-copy {
   padding: 0;
   margin: 0;
+}
+
+/* read-post layout */
+/* .read-post {
+  margin: 0 1.25em;
+} */
+
+.read-post-upper {
+  margin: 0 auto;
+  width: min(90%, 800px);
+}
+
+.read-post-lower {
+  margin: 0 auto 2em;
+  width: min(90%, 800px);
+}
+
+.read-post-date {
+  margin-bottom: 0;
+}
+
+.recent-post {
+  text-align: center;
+  margin: 2.5em 0 0.5em;
 }
 
 /* media-queries */
