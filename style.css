@@ -344,4 +344,5 @@ footer {
 
 .hero-overlay {
   text-decoration: none;
+  cursor: pointer;
 }
