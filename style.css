@@ -322,6 +322,9 @@ footer {
   margin: 0 0.5em;
 }
 
+.me-description {
+  max-width: 1000px;
+}
 /* media-queries */
 @media (min-width: 768px) {
   html {
@@ -330,8 +333,8 @@ footer {
 
   .me-profile {
     grid-template-areas:
-      "image text"
-      "image text";
+      ". image text ."
+      ". image text .";
     margin: 1.5em 2em;
   }
 }
@@ -339,6 +342,11 @@ footer {
 @media (min-width: 1025px) {
   html {
     font-size: 18px;
+  }
+
+  .me-profile {
+    grid-template-columns: 1fr min-content 6fr 1fr;
+    grid-template-rows: min-content 1fr;
   }
 }
 
