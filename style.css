@@ -332,6 +332,7 @@ footer {
     grid-template-areas:
       "image text"
       "image text";
+    margin: 1.5em 2em;
   }
 }
 
