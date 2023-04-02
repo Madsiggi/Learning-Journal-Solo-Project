@@ -6,6 +6,7 @@
 
 html {
   min-width: 420px;
+  overflow: hidden;
 }
 
 html,
@@ -103,10 +104,13 @@ p,
   background-color: #000000;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 /* images */
 
 .hero-img {
-  /* width: clamp(420px, 100vw, 1085px); */
   width: 100vw;
   min-width: 420px;
   min-height: 290px;
@@ -266,4 +270,8 @@ footer {
   html {
     font-size: 18px;
   }
+}
+
+.hero-overlay {
+  text-decoration: none;
 }
