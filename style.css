@@ -5,8 +5,8 @@
 }
 
 html {
-  min-width: 420px;
-  overflow: hidden;
+  width: calc(100vw - (100vw - 100%));
+  min-width: 320px;
 }
 
 html,
@@ -111,8 +111,8 @@ body {
 /* images */
 
 .hero-img {
-  width: 100vw;
-  min-width: 420px;
+  width: 100%;
+  min-width: 320px;
   min-height: 290px;
   max-height: 490px;
   filter: brightness(40%);
